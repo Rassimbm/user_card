@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Mooli', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.header {
+    height: 100px;
+    background-color: aqua;
+}
+
+.content {
+    padding: 30px;
+    border: 2px silver;
+    border-radius: 0px 0px 6px;
+    border-style: hidden solid solid;
+    position: relative;
+    bottom: 80px;
+}
+
+.content #profile-photo {
+    width: 100px;
+    /* top: 50px; */
+    /* left: 50px; */
+}
